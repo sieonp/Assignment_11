@@ -4,7 +4,8 @@ from typing import List
 
 def path_to_file_list(path: str) -> List[str]:
     """Reads a file and returns a list of lines in the file"""
-'''
+"""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     # Will this be working?
@@ -14,14 +15,27 @@ def path_to_file_list(path: str) -> List[str]:
     lines = open(path, 'w').split('\n')
 >>>>>>> 061269e (path_to_file_list implemented)
 =======
+=======
+>>>>>>> fcfe152 (path_to_file_list implemented)
     # implemented as a one-liner
     lines = open(path, 'w').split('\n')
 =======
     # Will this be working?
     lines = open(path, 'r').read().split('\n')
 >>>>>>> 523959a (path_to_file_list implementation_1)
+<<<<<<< HEAD
 >>>>>>> fee8b9d (path_to_file_list implementation_1)
-'''
+=======
+=======
+    # Will this be working?
+    lines = open(path, 'r').read().split('\n')
+=======
+    # implemented as a one-liner
+    lines = open(path, 'w').split('\n')
+>>>>>>> 061269e (path_to_file_list implemented)
+>>>>>>> fac070b (path_to_file_list implemented)
+>>>>>>> fcfe152 (path_to_file_list implemented)
+"""
     lines = open(path, 'r').read().split('\n')
     return lines
 
